@@ -2,6 +2,12 @@
 
 .footer {
   padding: 2rem;
-  color: whitesmoke;
   background-color: $blue5;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  p {
+    color: whitesmoke;
+    font-size: 1.1rem;
+  }
 }
