@@ -4,9 +4,12 @@ const Card = (props) => {
   return (
     <div className={cardStyle.card}>
       <h1>{props.name}</h1>
-      <h4>{props.role}</h4>
+      <h4>({props.role})</h4>
       <img src={props.img} alt={props.name} />
-      <p>{props.comment}</p>
+      <p>
+        <b>Catchphrase:</b> {props.comment}
+      </p>
+      <button>Choose</button>
     </div>
   );
 };
